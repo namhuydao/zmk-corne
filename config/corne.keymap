@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 
 / {
     behaviors {
@@ -54,10 +55,10 @@
 
         default_layer {
             bindings = <
-&kp TAB   &kp Q             &kp W            &kp E             &kp R             &kp T         &kp Y          &kp U              &kp I             &kp O            &kp P                     &kp DEL
-&kp CAPS  &holdtap LMETA A  &holdtap LALT S  &holdtap LCTRL D  &holdtap LSHFT F  &kp G         &kp H          &holdtap RSHIFT J  &holdtap RCTRL K  &holdtap RALT L  &holdtap RMETA SEMICOLON  &kp SQT
-&none     &kp Z             &kp X            &kp C             &kp V             &kp B         &kp N          &kp M              &kp COMMA         &kp DOT          &kp FSLH                  &none
-                                             &mo 4             &lt 1 SPACE       &kp ESCAPE    &kp BACKSPACE  &lt 2 RET          &mo 3
+&kp TAB   &kp Q             &kp W            &kp E             &kp R             &kp T        &kp Y          &kp U              &kp I             &kp O            &kp P                     &kp DEL
+&kp CAPS  &holdtap LMETA A  &holdtap LALT S  &holdtap LCTRL D  &holdtap LSHFT F  &kp G        &kp H          &holdtap RSHIFT J  &holdtap RCTRL K  &holdtap RALT L  &holdtap RMETA SEMICOLON  &kp SQT
+&none     &kp Z             &kp X            &kp C             &kp V             &kp B        &kp N          &kp M              &kp COMMA         &kp DOT          &kp FSLH                  &none
+                                             &mo 4             &lt 1 SPACE       &lt 5 ESC    &kp BACKSPACE  &lt 2 RET          &mo 3
             >;
         };
 
@@ -94,6 +95,15 @@
 &none  &kp LMETA     &kp LEFT_ALT          &kp LCTRL          &kp LEFT_SHIFT   &kp PRINTSCREEN    &kp F7      &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
 &none  &none         &none                 &none              &none            &none              &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
                                            &none              &none            &none              &none       &none         &none
+            >;
+        };
+
+        mouse {
+            bindings = <
+&none  &none     &none         &none      &none       &none    &none      &mwh SCROLL_UP    &mmv MOVE_UP       &mwh SCROLL_DOWN  &none  &none
+&none  &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &none    &none      &mmv MOVE_LEFT    &mmv MOVE_DOWN     &mmv MOVE_RIGHT   &none  &none
+&none  &none     &none         &none      &none       &none    &mkp MCLK  &mwh SCROLL_LEFT  &mwh SCROLL_RIGHT  &none             &none  &none
+                               &none      &none       &none    &mkp LCLK  &mkp RCLK         &none
             >;
         };
     };
