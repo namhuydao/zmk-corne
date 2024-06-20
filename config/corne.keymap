@@ -50,7 +50,7 @@
 
         Tab {
             bindings = <&kp TAB>;
-            key-positions = <3 4>;
+            key-positions = <4 5>;
             layers = <0>;
         };
 
