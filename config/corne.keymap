@@ -74,7 +74,7 @@
             bindings = <
 &kp ASTERISK     &kp Q             &kp W            &kp E             &kp R             &kp T         &kp Y          &kp U              &kp I             &kp O            &kp P                     &kp AT
 &kp EXCLAMATION  &holdtap LMETA A  &holdtap LALT S  &holdtap LCTRL D  &holdtap LSHFT F  &kp G         &kp H          &holdtap RSHIFT J  &holdtap RCTRL K  &holdtap RALT L  &holdtap RMETA SEMICOLON  &kp HASH
-&none            &kp Z             &kp X            &kp C             &kp V             &kp B         &kp N          &kp M              &kp COMMA         &kp DOT          &kp FSLH                  &none
+&kp DOLLAR       &kp Z             &kp X            &kp C             &kp V             &kp B         &kp N          &kp M              &kp COMMA         &kp DOT          &kp FSLH                  &kp PRCNT
                                                     &mo 4             &lt 1 SPACE       &kp ESCAPE    &kp BACKSPACE  &lt 2 RET          &mo 3
             >;
         };
