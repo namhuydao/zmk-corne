@@ -51,16 +51,19 @@
         Tab {
             bindings = <&kp TAB>;
             key-positions = <3 4>;
+            layers = <0>;
         };
 
         Delete {
             bindings = <&kp DEL>;
             key-positions = <7 8>;
+            layers = <0>;
         };
 
         Caplock {
             bindings = <&kp CAPS>;
-            key-positions = <1 2>;
+            key-positions = <31 32>;
+            layers = <0>;
         };
     };
 
