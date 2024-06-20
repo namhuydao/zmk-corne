@@ -70,7 +70,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        main {
             bindings = <
 &kp ASTERISK     &kp Q             &kp W            &kp E             &kp R             &kp T         &kp Y          &kp U              &kp I             &kp O            &kp P                     &kp AT
 &kp EXCLAMATION  &holdtap LMETA A  &holdtap LALT S  &holdtap LCTRL D  &holdtap LSHFT F  &kp G         &kp H          &holdtap RSHIFT J  &holdtap RCTRL K  &holdtap RALT L  &holdtap RMETA SEMICOLON  &kp HASH
@@ -97,7 +97,7 @@
             >;
         };
 
-        dir {
+        direction {
             bindings = <
 &none  &none                 &kp HOME              &kp UP                &kp END               &kp PAGE_UP      &none  &none       &none      &none     &none      &none
 &none  &none                 &kp LEFT_ARROW        &kp DOWN_ARROW        &kp RIGHT_ARROW       &kp PAGE_DOWN    &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RMETA  &none
