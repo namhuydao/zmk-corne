@@ -84,9 +84,9 @@
 
         symbol {
             bindings = <
-&none  &kp PIPE  &kp LT     &kp GT          &kp LBRC          &kp RBRC             &none      &kp AMPERSAND    &kp ASTERISK  &none      &none          &none
-&none  &kp BSLH  &kp TILDE  &kp UNDERSCORE  &kp LPAR          &kp RPAR             &kp COLON  &kp DOLLAR       &kp PERCENT   &kp CARET  &kp SEMICOLON  &none
-&none  &none     &kp GRAVE  &kp EQUAL       &kp LBKT          &kp RBKT             &none      &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &none          &none
+&none  &kp PIPE  &kp LT     &kp GT          &kp LBRC          &kp RBRC             &kp SLASH  &kp AMPERSAND    &kp ASTERISK  &kp QUESTION  &none          &none
+&none  &kp BSLH  &kp TILDE  &kp UNDERSCORE  &kp LPAR          &kp RPAR             &kp COLON  &kp DOLLAR       &kp PERCENT   &kp CARET     &kp SEMICOLON  &none
+&none  &none     &kp GRAVE  &kp EQUAL       &kp LBKT          &kp RBKT             &none      &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &none          &none
                             &none           &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES    &none      &none            &none
             >;
         };
