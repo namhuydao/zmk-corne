@@ -57,7 +57,7 @@
             bindings = <
 &none  &none                 &kp HOME              &kp UP                &kp END               &kp PAGE_UP    &none  &none       &none      &none     &none      &none
 &none  &none                 &kp LEFT_ARROW        &kp DOWN_ARROW        &kp RIGHT_ARROW       &kp PG_DN      &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RMETA  &none
-&none  &kp LA(LC(NUMBER_1))  &kp LA(LC(NUMBER_2))  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &none          &none  &none       &none      &none     &none      &none
+&none  &kp LA(LC(NUMBER_1))  &kp LA(LC(NUMBER_2))  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &kp LA(F4)     &none  &none       &none      &none     &none      &none
                                                    &none                 &none                 &none          &none  &none       &none
             >;
         };
